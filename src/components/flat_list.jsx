@@ -14,7 +14,7 @@ class FlatList extends Component {
     return (
       <div className="flat-list">
         {this.state.flatsList.map(flat => {
-          return <Flat apartment= {flat} key={flat.name} />
+          return <Flat apartment={flat} key={flat.name} setMarker={this.props.setMarker} />
         })}
       </div>
     );
