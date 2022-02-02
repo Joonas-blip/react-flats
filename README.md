@@ -1,30 +1,6 @@
-# react-boilerplate
 
-Simple react starter with the following config:
+## React Flats with Map View
 
-- React, ReactDOM
-- Webpack 4
-- Babel with es2015 and react presets
-- Bootstrap (css only, loaded from a cdn in `index.html`)
-- work with `.js` or `.jsx` files
-- main `application.scss` stylesheet is imported in `index.js` as a module to enjoy hot reloading
+Click on apartment on the left to view its location on the map.
 
-## Scripts
-
-To start the local Webpack Dev Server (usually on port `8080`):
-
-```bash
-yarn start
-```
-
-To lint all JavaScript files in the `src` folder:
-
-```bash
-yarn lint
-```
-
-To build and deploy your app to `gh-pages` branch on the GitHub repo:
-
-```bash
-yarn deploy
-```
+![Screenshot 2022-02-02 at 17 59 37](https://user-images.githubusercontent.com/64923657/152201619-ebd445c0-2abd-446d-8625-cdb1f4e5f8dd.png)
