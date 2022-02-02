@@ -11,7 +11,6 @@ class Flat extends Component {
       </div>
       <a className="card-link" href="#"></a>
     </div>
-
     )
   }
 }
